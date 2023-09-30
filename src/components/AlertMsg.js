@@ -2,6 +2,7 @@ import React from "react";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
+//
 const AlertMsg = () => {
   return (
     <ToastContainer
@@ -14,4 +15,3 @@ const AlertMsg = () => {
 };
 
 export default AlertMsg;
-    

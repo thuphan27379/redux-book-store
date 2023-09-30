@@ -1,13 +1,14 @@
 import React from "react";
-import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+//
+import MThemeProvider from "./theme/MThemeProvider";
 import HomePage from "./pages/HomePage";
 import ReadingPage from "./pages/ReadingPage";
 import NotFoundPage from "./pages/NotFoundPage";
 import BookDetailPage from "./pages/BookDetailPage";
 import PublicLayout from "./layout/PublicLayout";
-import MThemeProvider from "./theme/MThemeProvider";
 
+//
 function App() {
   return (
     <BrowserRouter>

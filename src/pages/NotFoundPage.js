@@ -1,4 +1,3 @@
-
 import { Link as RouterLink } from "react-router-dom";
 import { Box, Button, Typography, Container } from "@mui/material";
 
@@ -10,7 +9,7 @@ function NotFoundPage() {
           Page not found!
         </Typography>
         <Typography sx={{ color: "text.secondary", mb: "1rem" }}>
-          Sorry, we couldnâ€™t find the page you requested.
+          Sorry, we couldn’t find the page you requested.
         </Typography>
         <Button to="/" variant="contained" component={RouterLink}>
           Go to Home
